@@ -1,5 +1,10 @@
 import "./topbar.scss";
-import { FontAwesomeIcon } from "@fortawesome/fontawesome-free";
+import {} from "@material-ui/core";
+// import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
+// import ThreeDRotation from "@mui/icons-material/ThreeDRotation";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function Topbar() {
   return (
@@ -10,14 +15,29 @@ export default function Topbar() {
             fromqatodev
           </a>
           <div className="itemContainer">
-            <i class="fa-solid fa-phone">+1(619)343-3996</i>
+            <a href="https://github.com/yermanjulia">
+              <GitHubIcon />
+            </a>
           </div>
           <div className="itemContainer">
-            <i class="fa-solid fa-square-envelope">yerman.julia@gmail.com</i>
+            <a href="https://www.linkedin.com/in/yermanjulia/">
+              <LinkedInIcon />
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="https://www.instagram.com/fromqatodev/">
+              <InstagramIcon />
+            </a>
           </div>
         </div>
 
-        <div className="right"> </div>
+        <div className="right">
+          <div className="hamburger">
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
