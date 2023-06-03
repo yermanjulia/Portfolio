@@ -11,22 +11,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">
-            fromqatodev
-          </a>
           <div className="itemContainer">
             <a href="https://github.com/yermanjulia">
-              <GitHubIcon />
+              <GitHubIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
             <a href="https://www.linkedin.com/in/yermanjulia/">
-              <LinkedInIcon />
+              <LinkedInIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
             <a href="https://www.instagram.com/fromqatodev/">
-              <InstagramIcon />
+              <InstagramIcon className="icon" />
             </a>
           </div>
         </div>
