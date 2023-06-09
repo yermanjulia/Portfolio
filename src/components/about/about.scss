@@ -3,10 +3,21 @@
 .about {
   background-color: #f0f4f7;
   display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   h1 {
     font-style: 30px;
     letter-spacing: 4px;
     padding-top: 30px;
+
+    @include mobile {
+      font-size: 25px;
+      margin-left: 30%;
+    }
   }
 
   .left {
@@ -39,9 +50,14 @@
       justify-content: center;
       flex-direction: column;
 
-      h4 {
-        font-size: 20px;
-        letter-spacing: 1px;
+      p {
+        font-size: 18px;
+        letter-spacing: 0, 5px;
+        margin-top: 1em;
+
+        @include mobile {
+          font-size: 12px;
+        }
       }
     }
   }
