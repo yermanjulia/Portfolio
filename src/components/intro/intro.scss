@@ -6,7 +6,7 @@
 
   @include mobile {
     flex-direction: column;
-    align-item: center;
+    align-items: center;
   }
 
   .left {
@@ -31,7 +31,8 @@
         width: 100%;
 
         @include mobile {
-          height: 50%;
+          height: 70%;
+          width: 70%;
         }
       }
     }
