@@ -13,13 +13,13 @@ export default function Portfolio() {
   const list = [
     {
       id: "project1",
-      title: "Project 1",
+      title: `${project1Portfolio[0].title}`,
     },
     {
       id: "project2",
-      title: "Project 2",
+      title: `${project2Portfolio[0].title}`,
     },
-    { id: "project3", title: "Project 3" },
+    { id: "project3", title: `${project3Portfolio[0].title}` },
   ];
   useEffect(() => {
     switch (selected) {
@@ -52,10 +52,12 @@ export default function Portfolio() {
 
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img src={d.img} alt="" />
-            <h3>{d.title}</h3>
-          </div>
+          <a href={d.link} target="_blank" rel="noopener noreferrer" key={d.id}>
+            <div className="item">
+              <img src={d.img} alt="" />
+              <h3>{d.title}</h3>
+            </div>
+          </a>
         ))}
 
         {/* <div className="item">

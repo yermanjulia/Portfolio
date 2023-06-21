@@ -1,18 +1,9 @@
 export const project1Portfolio = [
   {
     id: 1,
-    title: "PlayStation",
-    img: "./assets/mockup.png",
-  },
-  {
-    id: 1,
-    title: "PlayStation",
-    img: "./assets/mockup.png",
-  },
-  {
-    id: 1,
-    title: "PlayStation",
-    img: "./assets/mockup.png",
+    title: "Weather App",
+    img: "./assets/weather-app.png",
+    link: "https://fromqato.dev/weather-app/",
   },
 ];
 export const project2Portfolio = [
@@ -26,7 +17,7 @@ export const project2Portfolio = [
 export const project3Portfolio = [
   {
     id: 3,
-    title: "WeatherApp",
+    title: "PlayStation",
     img: "./assets/mockup.png",
   },
 ];
