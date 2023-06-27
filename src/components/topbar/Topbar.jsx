@@ -1,7 +1,6 @@
 import "./topbar.scss";
 import {} from "@material-ui/core";
-// import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
-// import ThreeDRotation from "@mui/icons-material/ThreeDRotation";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -12,17 +11,17 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <div className="itemContainer">
-            <a href="https://github.com/yermanjulia">
+            <a href="https://github.com/yermanjulia" target="_blank">
               <GitHubIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/yermanjulia/">
+            <a href="https://www.linkedin.com/in/yermanjulia/" target="_blank">
               <LinkedInIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.instagram.com/fromqatodev/">
+            <a href="https://www.instagram.com/fromqatodev/" target="_blank">
               <InstagramIcon className="icon" />
             </a>
           </div>
