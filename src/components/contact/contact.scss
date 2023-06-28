@@ -12,8 +12,29 @@
     flex: 1;
     overflow: hidden;
 
-    img {
-      height: 90%;
+    .imgContainer {
+      width: 800px;
+      height: 800px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex;
+      justify-content: center;
+      float: right;
+
+      @include mobile {
+        align-items: flex-start;
+        border-radius: 0%;
+      }
+
+      img {
+        width: 100%;
+
+        @include mobile {
+          height: 100%;
+          width: 100%;
+        }
+      }
     }
   }
   .right {

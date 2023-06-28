@@ -59,15 +59,6 @@ export default function Portfolio() {
             </div>
           </a>
         ))}
-
-        {/* <div className="item">
-          <img src="./assets/mockup.png" alt="" />
-          <h3>Nucamp</h3>
-        </div>
-        <div className="item">
-          <img src="./assets/mockup.png" alt="" />
-          <h3>WeatherApp</h3>
-        </div> */}
       </div>
     </div>
   );
