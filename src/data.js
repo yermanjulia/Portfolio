@@ -2,7 +2,7 @@ export const project1Portfolio = [
   {
     id: 1,
     title: "Weather App",
-    img: "./assets/weather-app.png",
+    img: "./assets/weather.png",
     link: "https://fromqato.dev/weather-app/",
   },
 ];

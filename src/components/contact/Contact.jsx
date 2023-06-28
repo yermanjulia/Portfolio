@@ -11,10 +11,12 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/connectpage.png" alt="" />
+        <div className="imgContainer">
+          <img src="assets/connectimg.jpg" alt="" />
+        </div>
       </div>
       <div className="right">
-        <h1>CONTACT </h1>
+        <h1>CONTACT ME</h1>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
