@@ -11,17 +11,29 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <div className="itemContainer">
-            <a href="https://github.com/yermanjulia" target="_blank">
+            <a
+              href="https://github.com/yermanjulia"
+              target="_blank"
+              rel="noreferrer"
+            >
               <GitHubIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/yermanjulia/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/yermanjulia/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LinkedInIcon className="icon" />
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.instagram.com/fromqatodev/" target="_blank">
+            <a
+              href="https://www.instagram.com/fromqatodev/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <InstagramIcon className="icon" />
             </a>
           </div>
