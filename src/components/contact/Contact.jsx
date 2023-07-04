@@ -2,8 +2,6 @@ import { useState } from "react";
 import "./contact.scss";
 
 export default function Contact() {
-  const [message] = useState(false);
-
   return (
     <div className="contact" id="contact">
       <div className="left">
