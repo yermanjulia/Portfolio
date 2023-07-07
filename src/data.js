@@ -9,15 +9,17 @@ export const project1Portfolio = [
 export const project2Portfolio = [
   {
     id: 2,
-    title: "Nucamp",
-    img: "./assets/mockup.png",
+    title: "Color Picker",
+    img: "./assets/color-picker.png",
+    link: "https://fromqato.dev/colors/",
   },
 ];
 
 export const project3Portfolio = [
   {
     id: 3,
-    title: "PlayStation",
-    img: "./assets/mockup.png",
+    title: "Decor Slider",
+    img: "./assets/decor.png",
+    link: "https://fromqato.dev/decor/",
   },
 ];
