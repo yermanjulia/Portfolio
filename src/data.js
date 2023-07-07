@@ -23,3 +23,21 @@ export const project3Portfolio = [
     link: "https://fromqato.dev/decor/",
   },
 ];
+
+export const project4Portfolio = [
+  {
+    id: 4,
+    title: "Playstation App (Team Project)",
+    img: "./assets/new-playstation-react.png",
+    link: "https://new-playstation-react.web.app/",
+  },
+];
+
+export const project5Portfolio = [
+  {
+    id: 5,
+    title: "Personal Portfolio",
+    img: "./assets/personal-portfolio.png",
+    link: "https://fromqato.dev/",
+  },
+];

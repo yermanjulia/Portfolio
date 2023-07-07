@@ -5,6 +5,8 @@ import {
   project1Portfolio,
   project2Portfolio,
   project3Portfolio,
+  project4Portfolio,
+  project5Portfolio,
 } from "../../data.js";
 
 export default function Portfolio() {
@@ -20,6 +22,8 @@ export default function Portfolio() {
       title: `${project2Portfolio[0].title}`,
     },
     { id: "project3", title: `${project3Portfolio[0].title}` },
+    { id: "project4", title: `${project4Portfolio[0].title}` },
+    { id: "project5", title: `${project5Portfolio[0].title}` },
   ];
   useEffect(() => {
     switch (selected) {
@@ -31,6 +35,12 @@ export default function Portfolio() {
         break;
       case "project3":
         setData(project3Portfolio);
+        break;
+      case "project4":
+        setData(project4Portfolio);
+        break;
+      case "project5":
+        setData(project5Portfolio);
         break;
       default:
         setData(project1Portfolio);
