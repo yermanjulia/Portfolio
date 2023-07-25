@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="contact" id="contact">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/connectimg.jpg" alt="" />
+          <img src="assets/women-draw.svg" alt="" />
         </div>
       </div>
       <div className="right">
