@@ -18,9 +18,9 @@ export const project2Portfolio = [
 export const project3Portfolio = [
   {
     id: 3,
-    title: "Decor Slider",
-    img: "./assets/decor.png",
-    link: "https://fromqato.dev/decor/",
+    title: "Soccer Website",
+    img: "./assets/soccer.png",
+    link: "https://fromqato.dev/soccer/",
   },
 ];
 
